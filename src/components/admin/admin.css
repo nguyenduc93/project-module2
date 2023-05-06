@@ -1,0 +1,83 @@
+.tableAdmin tr td{
+    /* background-color: rgb(232, 176, 156); */
+    text-align: center;
+    /* width: 90%; */
+}
+.row{
+    margin-right: 10rem;
+}
+.table{
+    text-align: center;  
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(205, 217, 218);
+}
+#menu li{
+    /* margin: 10px; */
+    /* margin-right: 20px; */
+    margin-top: 20px;
+}
+.input-group-text {
+    width: auto; /* Thiết lập chiều rộng tự động cho phần tử span */
+  }
+  
+  .span-width {
+    display: inline-block; /* Đặt kiểu hiển thị cho phần tử span là block */
+    width: 150px; /* Thiết lập chiều rộng cho phần tử span */
+  }
+  /* Css trang admin */
+
+  .containerAdmin{
+    background-size: cover;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/fir-project-filebase.appspot.com/o/bg3.jpg?alt=media&token=1d41057e-7bf4-4052-bfdb-d74c4a0be0d6");
+  }
+  /* logout */
+  .logout button{
+    border: none;
+    background-color: transparent;
+    color: #0dcaf0
+  }
+/* Phần quản lý đơn hàng */
+.table-product {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-product th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-product td {
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-product tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-product tfoot td {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px;
+  vertical-align: middle;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}

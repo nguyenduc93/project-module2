@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+.containerrr{
+    background: url(https://firebasestorage.googleapis.com/v0/b/fir-project-filebase.appspot.com/o/bg2.jpg?alt=media&token=cc55ca9a-c439-4531-a23c-68cf59d72fe6);
+    background-size: cover;
+    margin: auto;
+}
+.containerr{
+    width: 40%;
+    height: 750px;
+    margin: 0 auto; 
+}
+.container{
+  padding: 16px;
+  border: 1px salmon;
+  background-color: rgba(0,0,0,0.3);
+  margin-top: 40px;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.container input{
+  margin-left: 3rem !important;
+}
+h1, label{
+  color: rgb(191, 190, 190);
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password], input[type=email], input[type=number] {
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus {
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerButton{
+    /* margin-right: 180px; */
+    padding: 20px;
+}
+.registerButton button{
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px;
+    background-color: green;
+}
+.registerButton button:hover{
+    background-color: #98d3f5;
+}

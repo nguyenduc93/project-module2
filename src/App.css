@@ -1,0 +1,29 @@
+
+.carousel-item img {
+  object-fit: cover;
+}
+
+.carousel-caption {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  margin-bottom: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel-item.active .carousel-caption {
+  opacity: 1;
+}
+.carousel-caption .slide{
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  margin: 10px;
+  padding: 10px;
+}
+.slide:hover{
+  background-color: white;
+  color: #47484a;
+}
+
+
+

@@ -1,0 +1,81 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+.containerr{
+  background: url("https://firebasestorage.googleapis.com/v0/b/fir-project-filebase.appspot.com/o/bg2.jpg?alt=media&token=cc55ca9a-c439-4531-a23c-68cf59d72fe6");
+  background-size: cover;
+}
+.form-login-container{
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+ align-items: center;
+  
+}
+
+.form-register{
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-heading{
+  text-align: center;
+}
+
+.form-input{
+  height: 36px;
+  padding: 0 16px;
+  outline: none;
+  border: 1px solid #dadada;
+  border-radius: 4px !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  min-width: 100%;
+  margin-top: 10px;
+}
+
+.form-lable{
+  min-width: 50px;
+  margin-right: 10px;
+}
+
+.register-button{
+  text-align: center;
+  flex: 1;
+}
+
+.register-link{
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-lable{
+  font-weight: 500;
+  margin-bottom: 10px !important;
+}
+
+.btn-200{
+  width: 70%;
+}
+
+.text-footer{
+  margin-bottom: 0 !important;
+}
+
+.register-group{
+  margin-bottom: 15px;
+}
+.error-message{
+  color: red;
+}

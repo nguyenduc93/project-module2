@@ -1,0 +1,110 @@
+
+  .container2{
+    background-color: #2f353d !important; 
+    color: white;
+    height: 80px; /* Điều chỉnh chiều cao navbar */
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar{
+    margin-left: 20px;
+    color: white
+}
+.container2 img{
+    width: 60px;
+    height: 60px; /* Điều chỉnh chiều cao */
+    margin-right: 10px;
+}
+span{
+    color: white;
+}
+.dropdown-item span{
+    color: rgb(19, 18, 18);
+}
+
+.navbar-nav > li:not(:last-child) {
+    margin-right: 20px;
+  }
+  /* Tìm Kiếm */
+.d-flex{
+    margin-left: 40px;
+}
+form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="search"] {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 11px;
+    width: 150px;
+    position: relative;
+  }
+  
+  .buttonIcon {
+    color: #fff;
+    /* background-color: #28a745; */
+    /* border-color: #28a745; */
+    border-radius: 20px;
+    padding: 8px 16px;
+    /* margin-left: 10px; */
+    font-size: 12px;
+    cursor: pointer;
+    position: absolute;
+    left: 770px;
+    color: #222323;
+  }
+  
+.buttonIcon:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  
+
+  /* register */
+  .register{
+    display: flex;
+    margin-left: 220px;
+    align-items: center;
+  }
+  .register button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-right: 1px solid rgb(94, 94, 94);
+    padding-right: 5px;
+  }
+  .register button:hover{
+    background-color: #222323;
+  }
+  .cart i{
+    font-size: 30px;
+    
+  }
+  .cart button{
+    border: none;
+  }
+  .register div {
+    margin-right: 10px;
+  }
+  .active{
+    border-bottom: 1px solid red;
+  }
+  .nameUser{
+    margin-left: 20px;
+  }
+.nameUser button{
+  color: #222323;
+  border: none;
+}  
+.cart{
+  margin-left: 70px;
+}
